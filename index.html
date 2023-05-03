@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<!-- Task : An UI design by using plain HTML and CSS, without using any library or frameworks. -->
+<!-- By Rohit kumar -->
+
+<!-- header section -->
+
+
+<head>
+    <!-- below code helps us to view in all the three devices (desktop, tablet and mobile) to achieve this we also wrote some code in index.css file which you get in Css folder -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- adding title -->
+    <title>Food WebApp</title>       
+    <!-- adding css from Css folder -->
+    <link rel="stylesheet" href="./Css/index.css" />
+    <link rel="stylesheet" href="./Css/navbar.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+</head>
+
+
+<!-- Body starts from here -->
+<body>
+    <nav>
+        <input type="checkbox" id="menu-toggle" /><label for="menu-toggle" class="list-logo">&#9776;</label>
+        <!-- navbar menu -->
+        <ul class="list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#order">Order</a></li>
+            <li><a href="#">Food</a></li>
+            <li><a href="#">Restaurant</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+        <!-- adding whatsapp and shopping logo  -->
+        <div class="logo">
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+    </nav>
+
+<!-- Home section  -->
+
+    
+    <div id="home">
+        <div id="Sub-Section">
+            <h1>LOREM IPSUM</h1>
+            <p>Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                specimen book.
+            </p>
+        </div>
+        <div id="home_image"><img id="image1" src="./assets/img1.jpg" alt="img1" /></div>
+    </div>
+    <div id="div"></div>
+
+
+
+<!-- Order Section -->
+
+
+    <div id="order-section">
+        <h1>Order Now</h1>
+        <div id="Section">
+            <div>
+                <!-- importing Burger image from assets folder -->
+                <div><img src="./assets/img4.jpg" alt="img4" /></div>
+                <h2>BURGER</h2>
+                <p>
+                    Lorem Ipsum has been the <br />
+                    industry's standard dummy text
+                </p>
+            </div>
+
+            <div>
+                <!-- importing Pizza image from assets folder -->
+        
+                <div><img src="./assets/img2.jpg" alt="img2" /></div>
+                <h2>PIZZA</h2>
+                <p>
+                    Lorem Ipsum has been the <br />
+                    industry's standard dummy text
+                </p>
+            </div>
+
+            <div>
+                 <!-- importing Pasta image from assets folder -->
+
+                <div><img src="./assets/img3.jpg" alt="img3" /></div>
+                <h2>PASTA</h2>
+                <p>
+                    Lorem Ipsum has been the <br />
+                    industry's standard dummy text
+                </p>
+            </div>
+        </div>
+        <div>
+            <!-- Button for order -->
+            <button>Order</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
